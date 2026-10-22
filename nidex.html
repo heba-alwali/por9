@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- تم تغيير عنوان الموقع ليحمل اسمك الكامل -->
+    <title>هبة الوالي</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- استدعاء عائلات الخطوط المطلوبة للتصميم -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- شريط التنقل العلوي (Navbar) -->
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- استخدام ملف صورة الشعار الخاص بك هنا -->
+<a href="#" class="logo">
+  <img src="./imge/photo_2026-10-22_02-59-04.jpg " alt="Klassy Logo">
+</a>
+              
+            </div>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#menu" class="nav-item">Menu</a>
+                <a href="#chefs" class="nav-item">Chefs</a>
+                <div class="dropdown">
+                    <a href="#pages" class="nav-item">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#page1">Page 1</a>
+                        <a href="#page2">Page 2</a>
+                    </div>
+                </div>
+                <a href="#contact" class="nav-item">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero-section">
+        <!-- النصف الأيسر: صندوق يحتوي على كرت الصورة البرتقالية التي تملكها -->
+        <div class="hero-left-image-box" style="background-image: url('./imge/photo_2026-10-22_02-59-19.jpg');">
+            <div class="hero-text-content">
+                <h1 class="hero-title">KlassyCafe</h1>
+                <p class="hero-subtitle">THE BEST EXPERIENCE</p>
+                <div class="hero-btn-container">
+                    <a href="#contact" class="hero-btn">Make A Reservation</a>
+                </div>
+            </div>
+        </div>
+        <!-- النصف الأيمن: يعرض صورة المطعم الداخلي الممتدة -->
+        <div class="hero-right-display" style="background-image: url('./imge/photo_2026-10-22_02-59-13.jpg');"></div>
+    </section>
+
+        
+   
+    <!-- قسم من نحن (About Section) -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text-content">
+                <span class="sub-tag">ABOUT US</span>
+                <h2 class="main-heading">We Leave A Delicious Memory For You</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel volutpatum consequatitur nihil iure quisquam eaque. Integer elementum, nibh non convallis varius, lectus diam finibus ante.</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, vel ipsa asperiores Explicabo accusamus libero adipisci, in rem!</p>
+                
+                <!-- شبكة الأطباق الثلاثية المصغرة -->
+                <div class="thumb-grid">
+                    <div class="thumb-item"><img src="./imge/photo_2026-10-22_02-58-29.jpg" alt="Dumplings Bowl"></div>
+                    <div class="thumb-item"><img src="./imge/photo_2026-10-22_02-58-39.jpg" alt="Dumplings Plate"></div>
+                    <div class="thumb-item"><img src="./imge/photo_2026-10-22_02-58-44.jpg" alt="Raspberry Tea"></div>
+                </div>
+            </div>
+            <div class="about-image-content">
+                <img src="./imge/photo_2026-10-22_02-58-48.jpg" alt="Restaurant Diners" class="large-about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم فريق الطهاة (Chefs Section) -->
+    <section id="chefs" class="chefs-section">
+        <div class="chefs-container">
+            <div class="center-title">
+                <span class="sub-tag">OUR CHEFS</span>
+                <h2 class="main-heading">We offer the best ingredients for you</h2>
+            </div>
+            
+            <div class="chefs-cards-grid">
+                <!-- كرت راندي -->
+                <div class="chef-card">
+                    <div class="chef-image-wrap">
+                        <img src="./imge/photo_2026-10-22_02-58-52.jpg" alt="Randy Walker">
+                        <div class="chef-social-overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-details">
+                        <h3>Randy Walker</h3>
+                        <p>Pastry Chef</p>
+                    </div>
+                </div>
+                <!-- كرت ديفيد -->
+                <div class="chef-card">
+                    <div class="chef-image-wrap">
+                        <img src="./imge/photo_2026-10-22_02-58-56.jpg" alt="David Martin">
+                        <div class="chef-social-overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-details">
+                        <h3>David Martin</h3>
+                        <p>Cookie Chef</p>
+                    </div>
+                </div>
+                <!-- كرت بيتر -->
+                <div class="chef-card">
+                    <div class="chef-image-wrap">
+                        <img src="./imge/photo_2026-10-22_02-59-00.jpg" alt="Peter Perkson">
+                        <div class="chef-social-overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="chef-details">
+                        <h3>Peter Perkson</h3>
+                        <p>Pancake Chef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الحجز والاتصال (Reservation Section) -->
+    <!-- تم تعيين صورة الخلفية السوداء الداكنة الخاصة بك هنا بالكامل كخلفية ممتدة -->
+    <section id="contact" class="reservation-section" style="background-image: linear-gradient(rgba(42,42,42,0.4), rgba(42,42,42,0.4)), url('./imge/photo_2026-10-22_02-59-08.jpg');">
+        <div class="reservation-container">
+            <!-- تفاصيل الاتصال اليسرى -->
+            <div class="reservation-info">
+                <span class="sub-tag">CONTACT US</span>
+                <h2 class="main-heading text-white">Here You Can Make A Reservation Or Just walkin to our cafe</h2>
+                <p class="paragraph text-muted">Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend risus, varius sollicitudin urna diam, sed commodo purus porta ut.</p>
+                
+                <div class="contact-cards-layout">
+                    <div class="contact-mini-card">
+                        <div class="orange-icon-box"><i class="fa-solid fa-phone"></i></div>
+                        <h4>Phone Numbers</h4>
+                        <p>080-090-0990</p>
+                        <p>080-090-0880</p>
+                    </div>
+                    <div class="contact-mini-card">
+                        <div class="orange-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                        <h4>Emails</h4>
+                        <p>hello@company.com</p>
+                        <p>info@company.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- صندوق استمارة الحجز البيضاء اليمنى -->
+            <div class="reservation-form-wrapper">
+                <h3 class="form-box-title">Table Reservation</h3>
+                <form id="cafeReservationForm">
+                    <div class="form-flex-row">
+                        <input type="text" id="guestName" placeholder="Your Name" required>
+                        <input type="email" id="guestEmail" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-flex-row">
+                        <input type="tel" id="guestPhone" placeholder="Phone Number" required>
+                        <input type="text" id="guestCount" placeholder="Number Of Guests" required>
+                    </div>
+                    <div class="form-full-row">
+                        <textarea id="guestMsg" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-submit-wrap">
+                        <button type="submit" class="submit-action-btn">Make A Reservation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة باستخدام صورة شعار التذييل المخصصة لديك (Footer) -->
+    <footer class="site-footer">
+        <p>© Copyright Klassy Cafe Co. Design by: HayaAlHussein</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
